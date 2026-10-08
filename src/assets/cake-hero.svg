@@ -1,0 +1,51 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cakeBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#FED7AA;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#FDBA74;stop-opacity:1" />
+    </linearGradient>
+    <linearGradient id="cakeGrad" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" style="stop-color:#FBBF24;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F59E0B;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#cakeBg)"/>
+  
+  <!-- Cake 1 -->
+  <rect x="150" y="200" width="120" height="180" fill="url(#cakeGrad)" rx="10"/>
+  <circle cx="210" cy="180" r="30" fill="#EC4899"/>
+  <circle cx="190" cy="160" r="20" fill="#F472B6"/>
+  <circle cx="230" cy="165" r="20" fill="#F472B6"/>
+  
+  <!-- Cake 2 -->
+  <rect x="340" y="180" width="120" height="200" fill="#DC2626" rx="10"/>
+  <ellipse cx="400" cy="150" rx="35" ry="25" fill="#EF4444"/>
+  <circle cx="385" cy="135" r="15" fill="#FECACA"/>
+  <circle cx="415" cy="135" r="15" fill="#FECACA"/>
+  <circle cx="400" cy="120" r="12" fill="#FCA5A5"/>
+  
+  <!-- Cake 3 -->
+  <rect x="530" y="220" width="120" height="160" fill="#92400E" rx="10"/>
+  <rect x="535" y="205" width="110" height="30" fill="#B45309" rx="5"/>
+  <circle cx="590" cy="185" r="25" fill="#FBBF24"/>
+  <circle cx="570" cy="175" r="18" fill="#FCD34D"/>
+  <circle cx="610" cy="175" r="18" fill="#FCD34D"/>
+  
+  <!-- Cupcakes -->
+  <circle cx="200" cy="450" r="35" fill="#F97316"/>
+  <circle cx="200" cy="430" r="30" fill="#FB923C"/>
+  <circle cx="185" cy="415" r="8" fill="#FECDD3"/>
+  <circle cx="215" cy="415" r="8" fill="#FECDD3"/>
+  <circle cx="200" cy="410" r="6" fill="#FED7AA"/>
+  
+  <circle cx="400" cy="460" r="35" fill="#EF4444"/>
+  <circle cx="400" cy="440" r="30" fill="#F87171"/>
+  <circle cx="385" cy="425" r="8" fill="#FEE2E2"/>
+  <circle cx="415" cy="425" r="8" fill="#FEE2E2"/>
+  
+  <circle cx="600" cy="450" r="35" fill="#7C3AED"/>
+  <circle cx="600" cy="430" r="30" fill="#A78BFA"/>
+  <circle cx="585" cy="415" r="8" fill="#EDE9FE"/>
+  <circle cx="615" cy="415" r="8" fill="#EDE9FE"/>
+</svg>

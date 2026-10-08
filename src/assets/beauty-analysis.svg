@@ -1,0 +1,61 @@
+<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="beautyBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#F5D5E3;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F3A7D6;stop-opacity:1" />
+    </linearGradient>
+    <radialGradient id="face" cx="50%" cy="40%">
+      <stop offset="0%" style="stop-color:#FDBCB4;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#F5A896;stop-opacity:1" />
+    </radialGradient>
+  </defs>
+  
+  <rect width="800" height="600" fill="url(#beautyBg)"/>
+  
+  <!-- Face Circle -->
+  <circle cx="400" cy="280" r="140" fill="url(#face)" stroke="#E879A9" stroke-width="3"/>
+  
+  <!-- Hair -->
+  <ellipse cx="400" cy="160" rx="150" ry="120" fill="#8B4513"/>
+  <path d="M 250 200 Q 280 120 400 100 Q 520 120 550 200" fill="#A0522D"/>
+  
+  <!-- Eyes -->
+  <circle cx="340" cy="250" r="20" fill="white"/>
+  <circle cx="460" cy="250" r="20" fill="white"/>
+  <circle cx="340" cy="250" r="12" fill="#6B4226"/>
+  <circle cx="460" cy="250" r="12" fill="#6B4226"/>
+  <circle cx="345" cy="245" r="6" fill="black"/>
+  <circle cx="465" cy="245" r="6" fill="black"/>
+  
+  <!-- Eyebrows -->
+  <path d="M 320 220 Q 340 210 360 215" stroke="#654321" stroke-width="4" fill="none" stroke-linecap="round"/>
+  <path d="M 440 215 Q 460 210 480 220" stroke="#654321" stroke-width="4" fill="none" stroke-linecap="round"/>
+  
+  <!-- Nose -->
+  <path d="M 400 250 L 400 320" stroke="#E879A9" stroke-width="3" fill="none"/>
+  
+  <!-- Lips -->
+  <ellipse cx="400" cy="360" rx="35" ry="20" fill="#E91E63"/>
+  <path d="M 365 360 Q 400 370 435 360" stroke="#C2185B" stroke-width="2" fill="none"/>
+  
+  <!-- Analysis Circles with AI indicators -->
+  <circle cx="150" cy="150" r="50" fill="none" stroke="#EC4899" stroke-width="3" opacity="0.6"/>
+  <text x="150" y="160" text-anchor="middle" font-size="24" font-weight="bold" fill="#EC4899">✓</text>
+  
+  <circle cx="650" cy="150" r="50" fill="none" stroke="#06B6D4" stroke-width="3" opacity="0.6"/>
+  <text x="650" y="160" text-anchor="middle" font-size="24" font-weight="bold" fill="#06B6D4">✓</text>
+  
+  <circle cx="150" cy="450" r="50" fill="none" stroke="#8B5CF6" stroke-width="3" opacity="0.6"/>
+  <text x="150" y="460" text-anchor="middle" font-size="24" font-weight="bold" fill="#8B5CF6">✓</text>
+  
+  <circle cx="650" cy="450" r="50" fill="none" stroke="#10B981" stroke-width="3" opacity="0.6"/>
+  <text x="650" y="460" text-anchor="middle" font-size="24" font-weight="bold" fill="#10B981">✓</text>
+  
+  <!-- Hair texture indicator -->
+  <rect x="320" y="80" width="160" height="40" fill="rgba(255,255,255,0.3)" rx="20" stroke="#8B4513" stroke-width="2"/>
+  <text x="400" y="108" text-anchor="middle" font-size="16" font-weight="bold" fill="#8B4513">شعر صحي</text>
+  
+  <!-- Skin analysis indicator -->
+  <rect x="320" y="480" width="160" height="40" fill="rgba(255,255,255,0.3)" rx="20" stroke="#E879A9" stroke-width="2"/>
+  <text x="400" y="508" text-anchor="middle" font-size="16" font-weight="bold" fill="#E879A9">بشرة نضرة</text>
+</svg>
